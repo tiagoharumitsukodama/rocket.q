@@ -25,6 +25,8 @@ html{
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     background: var(--background);
 }
@@ -98,6 +100,3 @@ button.outlined,
     margin: 3.5rem auto;
 }
 
-/* 
-desafio
-#together */
