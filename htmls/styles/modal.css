@@ -1,3 +1,8 @@
+.modal-wrapper.active{
+    visibility: visible;
+    opacity: 1;
+}
+
 .modal-wrapper{
     position: fixed;
     width: 100vw;
@@ -7,6 +12,9 @@
     display: flex;
     background: rgba(4,9,17,.8);
 
+    
+    visibility: hidden;
+    opacity: 0;
 }
 
 .modal-wrapper .modal{
@@ -18,6 +26,7 @@
     font-family: 'Poppins', sans-serif;
     text-align: center;
     padding: 6.4rem;
+
 }
 
 .modal-wrapper .modal .buttons{
@@ -53,3 +62,5 @@
 .modal-wrapper .modal .buttons > .button{
     padding: 1.3rem 3.2rem;
 }
+
+/* #embuscadeevolução */
