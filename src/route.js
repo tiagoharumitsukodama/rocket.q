@@ -13,4 +13,8 @@ route.get('/create-pass', (req, res) => {
     return res.render("create-pass")
 })
 
+// route.post('/room/:room/:question/:action', (req, res) => {
+//     // res.render()
+// })
+
 module.exports = route
