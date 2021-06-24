@@ -2,9 +2,10 @@
   "name": "rocketq",
   "version": "1.0.0",
   "description": "Projeto desenvolvido para gerenciar perguntar de usuário. Projeto feito na semana Next Level Week",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "repository": {
     "type": "git",
